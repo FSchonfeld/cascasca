@@ -1,0 +1,292 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F3F5FC;
+}
+
+header {
+  height: 5%;
+}
+
+.logo {
+  padding: 25px 0px 50px 50px;
+  height: 100%;
+}
+
+main {
+  height: 90%;
+}
+
+
+.descifrador {
+  display: inline-block;
+  /* border: 5px solid green; */
+  /* height: 500px; */
+  /* width: 60%; */
+  padding: 20px 40px 25px 80px;
+  width: 60%;
+}
+
+.mensaje-encriptar {
+  /* border: 5px solid blue; */
+  font-family: "Inter", sans-serif;
+  background-color: #F3F5FC;
+  color: #0A3871;
+  border: none;
+  width: 750px;
+  height: 400px;
+  font-size: large;
+  resize: none;
+}
+
+.mensaje-encriptar:focus {
+  outline: none;
+}
+
+/* .mensaje-encriptar::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mensaje-encriptar:focus-within::placeholder {
+  position: static;
+  z-index: 1;
+} */
+
+.botones-descifrador {
+  text-align: start;
+}
+
+.texto-indicaciones {
+  color: #868E96;
+  padding: 15px 0px;
+  text-align: start;
+}
+
+.boton-cifrar {
+  background-color: #0A3871;
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 37px;
+  margin: 0px 20px 0px 0px;
+  border: none;
+  border-radius: 24px;
+  transition-duration: 0.4s;
+  /* border: 5px solid salmon; */
+}
+
+.boton-cifrar:hover {
+  background-color: #072B61;
+  color: white;
+}
+
+.botones {
+  text-align: center;
+  background-color: #EFF1FA;
+  color: #0A3871;
+  width: 200px;
+  height: 37px;
+  border: 0.2px solid #0A3871;
+  border-radius: 24px;
+  transition-duration: 0.4s;
+  /* border: 5px solid salmon; */
+}
+
+.botones:hover {
+  background-color: #D8DFE8;
+  color: #0A3871;
+}
+
+.boton-cifrar,
+.botones {
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.descifrado {
+  display: inline-block;
+  /* border: 5px solid rgb(104, 51, 153); */
+  /* height: 500px; */
+  height: 100%;
+  width: 25%;
+  /* box-sizing: border-box; */
+  /* padding: 20px 40px 25px 80px; */
+
+
+}
+
+.mensaje-encriptado {
+  /* border: 5px solid blue; */
+  /* padding: 5px 0px 0px 5px; */
+  border-radius: 25px;
+  width: 100%;
+  height: 425px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-size: large;
+  resize: none;
+  background-image: url(imagenes/personaje.webp);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 75px;
+  box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
+}
+
+.mensaje-encriptado::placeholder {
+  text-align: center;
+  padding-top: 275px;
+}
+
+.mensaje-encriptado:focus {
+  outline: none;
+}
+
+
+.botones-cifrado {
+  text-align: center;
+  margin-top: 35px;
+}
+
+footer {
+  height: 5%;
+  background-color: #072B61;
+}
+
+.caja-footer {
+  text-align: center;
+  background-color: #072B61;
+}
+
+.link-git {
+  color: white;
+
+}
+
+.img-logo {
+  height: 20px;
+  padding: 10px 5px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PARA TABLET ----------------------------------------*/
+
+@media screen and (max-width: 992px) {
+  /* body {
+    background-color: black;
+  } */
+
+  main {
+    width: 90%;
+  }
+
+  .descifrador {
+    vertical-align: top;
+    width: 80%;
+    padding: 25px 95px;
+  }
+
+  .mensaje-encriptar {
+    width: 100%;
+  }
+
+  .botones-descifrador, .texto-indicaciones {
+    text-align: center;
+  }
+
+
+  .boton-cifrar, .botones {
+    width: 45%;
+  }
+
+
+  .descifrado {
+    width: 700px;
+    vertical-align: top;
+    padding: 99px 30px;
+  }
+
+  .mensaje-encriptado {
+    width: 100%;
+    height: 200px;
+    background-image: none;
+  }
+
+  .mensaje-encriptado::placeholder {
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 100px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* PARA MOBILE ----------------------------------------*/
+@media screen and (max-width: 375px) {
+
+  main {
+    width: 90%;
+  }
+
+  .descifrador {
+    vertical-align: top;
+    width: 80%;
+    padding: 50px;
+  }
+
+  .mensaje-encriptar {
+    width: 100%;
+  }
+
+  .botones-descifrador, .texto-indicaciones {
+    text-align: center;
+  }
+
+
+  .boton-cifrar, .botones {
+    width: 45%;
+  }
+
+  .botones-cifrado{
+    margin-top: 5px;
+  }
+
+  .descifrado {
+    width: 100%;
+    vertical-align: top;
+    padding:  15px 15px;
+  }
+
+  .mensaje-encriptado {
+    width: 100%;
+    height: 100px;
+    background-image: none;
+  }
+
+  .mensaje-encriptado::placeholder {
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 5px;
+  }
+
+}

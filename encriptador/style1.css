@@ -1,0 +1,169 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+}
+
+header {
+    height: 100px;
+}
+
+.logo {
+    padding: 25px 0px 50px 50px;
+}
+
+main {
+    height: 100%;
+}
+
+
+
+.descifrador {
+    display: inline-block;
+    /* border: 5px solid green; */
+    /* height: 500px; */
+    /* width: 60%; */
+    padding: 20px 40px 25px 80px;
+}
+
+.mensaje-encriptar {
+    /* border: 5px solid blue; */
+    font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: none;
+    width: 750px;
+    height: 400px;
+    font-size: large;
+    resize: none;
+}
+
+.mensaje-encriptar:focus {
+    outline: none;
+}
+
+/* .mensaje-encriptar::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mensaje-encriptar:focus-within::placeholder {
+    position: static;
+    z-index: 1;
+} */
+
+.botones-descifrador {
+    text-align: start;
+}
+
+.texto-indicaciones {
+    color:#868E96;
+    padding: 15px 0px;
+    text-align: start;
+}
+
+.boton-cifrar {
+    background-color: #0A3871;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 37px;
+    margin: 0px 20px 0px 0px;
+    border: none;
+    border-radius: 24px;
+    transition-duration: 0.4s;
+    /* border: 5px solid salmon; */
+}
+
+.boton-cifrar:hover {
+    background-color: #072B61;
+    color: white;
+}
+
+.botones {
+    text-align: center;
+    background-color: #EFF1FA;
+    color: #0A3871;
+    width: 200px;
+    height: 37px;
+    border: 0.2px solid #0A3871;
+    border-radius: 24px;
+    transition-duration: 0.4s;
+    /* border: 5px solid salmon; */
+}
+
+.botones:hover {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.boton-cifrar,
+.botones {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.descifrado {
+    display: inline-block;
+    /* border: 5px solid rgb(104, 51, 153); */
+    /* height: 500px; */
+    /* width: auto; */
+
+
+}
+
+.mensaje-encriptado {
+    /* border: 5px solid blue; */
+    padding: 5px 0px 0px 5px;
+    border-radius: 25px;
+    width: 400px;
+    height: 425px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    font-size: large;
+    resize: none;
+    background-image: url(imagenes/personaje.webp);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 75px;
+    box-shadow: 0px 0px 11px -7px rgba(0,0,0,0.75);
+}
+
+.mensaje-encriptado::placeholder{
+    text-align: center;
+    padding-top: 275px;
+}
+
+.mensaje-encriptado:focus {
+    outline: none;
+}
+
+
+.botones-cifrado{
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer{
+    height: 40px;
+    background-color: #072B61;
+}
+
+.caja-footer{
+    text-align: center;
+}
+
+/* .mensaje-footer{
+    color: white;
+    padding-top: 10px;
+} */
+
+.link-git{
+    color: white;
+}
+
+.img-logo{
+    height: 20px;
+    padding: 10px 5px 0px 0px;
+}

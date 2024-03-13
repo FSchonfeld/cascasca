@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transferencia de texto entre textarea</title>
+</head>
+<body>
+
+<textarea id="textarea1" rows="4" cols="50"></textarea><br><br>
+
+<button onclick="transferirTexto()">Transferir texto</button><br><br>
+
+<textarea id="textarea2" rows="4" cols="50"></textarea>
+
+<script>
+function transferirTexto() {
+    // Obtener el valor del primer textarea
+    var texto = document.getElementById("textarea1").value;
+    
+    // Asignar el valor al segundo textarea
+    document.getElementById("textarea2").value = texto;
+}
+</script>
+
+</body>
+</html>

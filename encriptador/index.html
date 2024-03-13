@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Encriptador </title>
+    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="imagenes/alura-logo.webp" alt="Logo de alura">
+    </header>
+
+    <main>
+        <div class="descifrador">
+            <textarea class="mensaje-encriptar" id="encriptar" placeholder="Escribir mensaje a encriptar"> </textarea>
+            <div class="botones-descifrador">
+                <p class="texto-indicaciones"> ⚠ No se aceptan ni mayúsculas ni minúsculas</p>
+                <button onclick="cifrarMensaje()" class="boton-cifrar"> Cifrar </button>
+                <button onclick="descifrarMensaje()" class="botones"> Descifrar </button>
+            </div>
+        </div>
+
+
+        
+        <div class="descifrado">
+            <textarea class="mensaje-encriptado" id="desencriptar" required placeholder="Su mensaje aparece aqui"
+                readonly></textarea>
+
+            <div class="botones-cifrado">
+                <button onclick="copiarMensaje()" class="botones" id="botonesCopiar"> Copiar </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="caja-footer">
+            <a class="link-git" href="https://github.com/FSchonfeld"> <img class="img-logo"
+                    src="imagenes/github-mark-white.png" alt="Logo de Git"> Francisco Schonfeld 2024 </a>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="app.js">   </script>
+</body>
+
+</html>
